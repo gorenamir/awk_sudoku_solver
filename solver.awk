@@ -190,10 +190,10 @@ function isRowHaveDuplicates(puzzle, i,   key, rowAndCol, row, arr) {
   	split(key, rowAndCol, SUBSEP)
   	row = rowAndCol[1]
   	if (row == i && puzzle[key] != 0) {
-  		if (puzzle[key] in arr)
-  		  return 1
-		  else
-		    arr[puzzle[key]] = 1
+  	  if (puzzle[key] in arr)
+  		return 1
+	  else
+	    arr[puzzle[key]] = 1
   	} 
   }
   return 0
