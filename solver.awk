@@ -165,7 +165,7 @@ function validatePuzzle(puzzle) {
 }
 
 function exitWithError(message) {
-  print message | "cat 1&>2"
+  print message | "cat 1>&2"
   exit(1)
 }
 
