@@ -113,11 +113,11 @@ function main(puzzle) {
     printPuzzle(puzzle)
 }
 
-function printPuzzle(puuzle,   i, j) {
+function printPuzzle(puzzle,   i, j) {
   for (i = 1; i <= 9; i++) {
     for (j = 1; j <= 9; j++)
-      printf("%s ", puuzle[i, j])
-    printf("\n")  
+      printf("%s ", puzzle[i, j])
+    printf("\n")
   }
 }
 
