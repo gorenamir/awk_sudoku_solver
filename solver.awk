@@ -10,95 +10,95 @@ END {
 }
 
 function initSubgrids() {
-  subgrids[1, 1] = "1" SUBSEP "1"
-  subgrids[1, 2] = "1" SUBSEP "1"
-  subgrids[1, 3] = "1" SUBSEP "1"
-  subgrids[2, 1] = "1" SUBSEP "1"
-  subgrids[2, 2] = "1" SUBSEP "1"
-  subgrids[2, 3] = "1" SUBSEP "1"
-  subgrids[3, 1] = "1" SUBSEP "1"
-  subgrids[3, 2] = "1" SUBSEP "1"
-  subgrids[3, 3] = "1" SUBSEP "1"
- 
-  subgrids[1, 4] = "1" SUBSEP "4"
-  subgrids[1, 5] = "1" SUBSEP "4"
-  subgrids[1, 6] = "1" SUBSEP "4"
-  subgrids[2, 4] = "1" SUBSEP "4"
-  subgrids[2, 5] = "1" SUBSEP "4"
-  subgrids[2, 6] = "1" SUBSEP "4"
-  subgrids[3, 4] = "1" SUBSEP "4"
-  subgrids[3, 4] = "1" SUBSEP "4"
-  subgrids[3, 6] = "1" SUBSEP "4"
+  SUBGRIDS[1, 1] = "1" SUBSEP "1"
+  SUBGRIDS[1, 2] = "1" SUBSEP "1"
+  SUBGRIDS[1, 3] = "1" SUBSEP "1"
+  SUBGRIDS[2, 1] = "1" SUBSEP "1"
+  SUBGRIDS[2, 2] = "1" SUBSEP "1"
+  SUBGRIDS[2, 3] = "1" SUBSEP "1"
+  SUBGRIDS[3, 1] = "1" SUBSEP "1"
+  SUBGRIDS[3, 2] = "1" SUBSEP "1"
+  SUBGRIDS[3, 3] = "1" SUBSEP "1"
 
-  subgrids[1, 7] = "1" SUBSEP "7"
-  subgrids[1, 8] = "1" SUBSEP "7"
-  subgrids[1, 9] = "1" SUBSEP "7"
-  subgrids[2, 7] = "1" SUBSEP "7"
-  subgrids[2, 8] = "1" SUBSEP "7"
-  subgrids[2, 9] = "1" SUBSEP "7"
-  subgrids[3, 7] = "1" SUBSEP "7"
-  subgrids[3, 8] = "1" SUBSEP "7"
-  subgrids[3, 9] = "1" SUBSEP "7"
+  SUBGRIDS[1, 4] = "1" SUBSEP "4"
+  SUBGRIDS[1, 5] = "1" SUBSEP "4"
+  SUBGRIDS[1, 6] = "1" SUBSEP "4"
+  SUBGRIDS[2, 4] = "1" SUBSEP "4"
+  SUBGRIDS[2, 5] = "1" SUBSEP "4"
+  SUBGRIDS[2, 6] = "1" SUBSEP "4"
+  SUBGRIDS[3, 4] = "1" SUBSEP "4"
+  SUBGRIDS[3, 4] = "1" SUBSEP "4"
+  SUBGRIDS[3, 6] = "1" SUBSEP "4"
 
-  subgrids[4, 1] = "4" SUBSEP "1"
-  subgrids[4, 2] = "4" SUBSEP "1"
-  subgrids[4, 3] = "4" SUBSEP "1"
-  subgrids[5, 1] = "4" SUBSEP "1"
-  subgrids[5, 2] = "4" SUBSEP "1"
-  subgrids[5, 3] = "4" SUBSEP "1"
-  subgrids[6, 1] = "4" SUBSEP "1"
-  subgrids[6, 2] = "4" SUBSEP "1"
-  subgrids[6, 3] = "4" SUBSEP "1"
+  SUBGRIDS[1, 7] = "1" SUBSEP "7"
+  SUBGRIDS[1, 8] = "1" SUBSEP "7"
+  SUBGRIDS[1, 9] = "1" SUBSEP "7"
+  SUBGRIDS[2, 7] = "1" SUBSEP "7"
+  SUBGRIDS[2, 8] = "1" SUBSEP "7"
+  SUBGRIDS[2, 9] = "1" SUBSEP "7"
+  SUBGRIDS[3, 7] = "1" SUBSEP "7"
+  SUBGRIDS[3, 8] = "1" SUBSEP "7"
+  SUBGRIDS[3, 9] = "1" SUBSEP "7"
 
-  subgrids[4, 4] = "4" SUBSEP "4"
-  subgrids[4, 5] = "4" SUBSEP "4"
-  subgrids[4, 6] = "4" SUBSEP "4"
-  subgrids[5, 4] = "4" SUBSEP "4"
-  subgrids[5, 5] = "4" SUBSEP "4"
-  subgrids[5, 6] = "4" SUBSEP "4"
-  subgrids[6, 4] = "4" SUBSEP "4"
-  subgrids[6, 5] = "4" SUBSEP "4"
-  subgrids[6, 6] = "4" SUBSEP "4"
+  SUBGRIDS[4, 1] = "4" SUBSEP "1"
+  SUBGRIDS[4, 2] = "4" SUBSEP "1"
+  SUBGRIDS[4, 3] = "4" SUBSEP "1"
+  SUBGRIDS[5, 1] = "4" SUBSEP "1"
+  SUBGRIDS[5, 2] = "4" SUBSEP "1"
+  SUBGRIDS[5, 3] = "4" SUBSEP "1"
+  SUBGRIDS[6, 1] = "4" SUBSEP "1"
+  SUBGRIDS[6, 2] = "4" SUBSEP "1"
+  SUBGRIDS[6, 3] = "4" SUBSEP "1"
 
-  subgrids[4, 7] = "4" SUBSEP "7"
-  subgrids[4, 8] = "4" SUBSEP "7"
-  subgrids[4, 9] = "4" SUBSEP "7"
-  subgrids[5, 7] = "4" SUBSEP "7"
-  subgrids[5, 8] = "4" SUBSEP "7"
-  subgrids[5, 9] = "4" SUBSEP "7"
-  subgrids[6, 7] = "4" SUBSEP "7"
-  subgrids[6, 8] = "4" SUBSEP "7"
-  subgrids[6, 9] = "4" SUBSEP "7"
+  SUBGRIDS[4, 4] = "4" SUBSEP "4"
+  SUBGRIDS[4, 5] = "4" SUBSEP "4"
+  SUBGRIDS[4, 6] = "4" SUBSEP "4"
+  SUBGRIDS[5, 4] = "4" SUBSEP "4"
+  SUBGRIDS[5, 5] = "4" SUBSEP "4"
+  SUBGRIDS[5, 6] = "4" SUBSEP "4"
+  SUBGRIDS[6, 4] = "4" SUBSEP "4"
+  SUBGRIDS[6, 5] = "4" SUBSEP "4"
+  SUBGRIDS[6, 6] = "4" SUBSEP "4"
 
-  subgrids[7, 1] = "7" SUBSEP "1"
-  subgrids[7, 2] = "7" SUBSEP "1"
-  subgrids[7, 3] = "7" SUBSEP "1"
-  subgrids[8, 1] = "7" SUBSEP "1"
-  subgrids[8, 2] = "7" SUBSEP "1"
-  subgrids[8, 3] = "7" SUBSEP "1"
-  subgrids[9, 1] = "7" SUBSEP "1"
-  subgrids[9, 2] = "7" SUBSEP "1"
-  subgrids[9, 3] = "7" SUBSEP "1"
+  SUBGRIDS[4, 7] = "4" SUBSEP "7"
+  SUBGRIDS[4, 8] = "4" SUBSEP "7"
+  SUBGRIDS[4, 9] = "4" SUBSEP "7"
+  SUBGRIDS[5, 7] = "4" SUBSEP "7"
+  SUBGRIDS[5, 8] = "4" SUBSEP "7"
+  SUBGRIDS[5, 9] = "4" SUBSEP "7"
+  SUBGRIDS[6, 7] = "4" SUBSEP "7"
+  SUBGRIDS[6, 8] = "4" SUBSEP "7"
+  SUBGRIDS[6, 9] = "4" SUBSEP "7"
 
-  subgrids[7, 4] = "7" SUBSEP "4"
-  subgrids[7, 5] = "7" SUBSEP "4"
-  subgrids[7, 6] = "7" SUBSEP "4"
-  subgrids[8, 4] = "7" SUBSEP "4"
-  subgrids[8, 5] = "7" SUBSEP "4"
-  subgrids[8, 6] = "7" SUBSEP "4"
-  subgrids[8, 7] = "7" SUBSEP "4"
-  subgrids[8, 8] = "7" SUBSEP "4"
-  subgrids[8, 9] = "7" SUBSEP "4"
+  SUBGRIDS[7, 1] = "7" SUBSEP "1"
+  SUBGRIDS[7, 2] = "7" SUBSEP "1"
+  SUBGRIDS[7, 3] = "7" SUBSEP "1"
+  SUBGRIDS[8, 1] = "7" SUBSEP "1"
+  SUBGRIDS[8, 2] = "7" SUBSEP "1"
+  SUBGRIDS[8, 3] = "7" SUBSEP "1"
+  SUBGRIDS[9, 1] = "7" SUBSEP "1"
+  SUBGRIDS[9, 2] = "7" SUBSEP "1"
+  SUBGRIDS[9, 3] = "7" SUBSEP "1"
 
-  subgrids[7, 7] = "7" SUBSEP "7"
-  subgrids[7, 8] = "7" SUBSEP "7"
-  subgrids[7, 9] = "7" SUBSEP "7"
-  subgrids[8, 7] = "7" SUBSEP "7"
-  subgrids[8, 8] = "7" SUBSEP "7"
-  subgrids[8, 9] = "7" SUBSEP "7"
-  subgrids[9, 7] = "7" SUBSEP "7"
-  subgrids[9, 8] = "7" SUBSEP "7"
-  subgrids[9, 9] = "7" SUBSEP "7" 
+  SUBGRIDS[7, 4] = "7" SUBSEP "4"
+  SUBGRIDS[7, 5] = "7" SUBSEP "4"
+  SUBGRIDS[7, 6] = "7" SUBSEP "4"
+  SUBGRIDS[8, 4] = "7" SUBSEP "4"
+  SUBGRIDS[8, 5] = "7" SUBSEP "4"
+  SUBGRIDS[8, 6] = "7" SUBSEP "4"
+  SUBGRIDS[8, 7] = "7" SUBSEP "4"
+  SUBGRIDS[8, 8] = "7" SUBSEP "4"
+  SUBGRIDS[8, 9] = "7" SUBSEP "4"
+
+  SUBGRIDS[7, 7] = "7" SUBSEP "7"
+  SUBGRIDS[7, 8] = "7" SUBSEP "7"
+  SUBGRIDS[7, 9] = "7" SUBSEP "7"
+  SUBGRIDS[8, 7] = "7" SUBSEP "7"
+  SUBGRIDS[8, 8] = "7" SUBSEP "7"
+  SUBGRIDS[8, 9] = "7" SUBSEP "7"
+  SUBGRIDS[9, 7] = "7" SUBSEP "7"
+  SUBGRIDS[9, 8] = "7" SUBSEP "7"
+  SUBGRIDS[9, 9] = "7" SUBSEP "7"
 }
 
 function count(arr,   key, i) {
@@ -116,13 +116,13 @@ function main(puzzle) {
 function printPuzzle(puzzle,   i, j) {
   for (i = 1; i <= 9; i++) {
     for (j = 1; j <= 9; j++)
-      printf("%s ", puzzle[i, j])
-    printf("\n")
+      printf ("%s ", puzzle[i, j])
+    printf ("\n")
   }
 }
 
 function solve(puzzle,   rowAndColStr, rowAndCol, row, col, i, solved) {
-  if (! haveZeros(puzzle)) {
+  if (!haveZeros(puzzle)) {
     return 1
   }
   rowAndColStr = getZeroIndices(puzzle)
@@ -130,11 +130,11 @@ function solve(puzzle,   rowAndColStr, rowAndCol, row, col, i, solved) {
   row = rowAndCol[1]
   col = rowAndCol[2]
   for (i = 1; i <= 9; i++) {
-  	puzzle[row, col] = i
-  	if (isRowHaveDuplicates(puzzle, row) || isColumnHaveDuplicates(puzzle, col) || isSubgridHaveDuplicates(puzzle, subgrids[row, col])) 
-  	  continue
+    puzzle[row, col] = i
+    if (isRowHaveDuplicates(puzzle, row) || isColumnHaveDuplicates(puzzle, col) || isSubgridHaveDuplicates(puzzle, SUBGRIDS[row, col]))
+      continue
     solved = solve(puzzle)
-    if (solved == -1) 
+    if (solved == -1)
       continue
     return solved
   }
@@ -143,7 +143,7 @@ function solve(puzzle,   rowAndColStr, rowAndCol, row, col, i, solved) {
 }
 
 function haveZeros(puzzle,   i, j) {
-  for (i = 1; i <= 9; i++) 
+  for (i = 1; i <= 9; i++)
     for (j = 1; j <= 9; j++)
       if (puzzle[i, j] == 0)
         return 1
@@ -171,44 +171,40 @@ function exitWithError(message) {
 
 function validateNineRowsAndCols(puzzle,   key, rowAndCol, row, col, rows) {
   for (key in puzzle) {
-  	split(key, rowAndCol, SUBSEP)
-  	row = rowAndCol[1]
-  	col = rowAndCol[2]
-  	rows[row]++
+    split(key, rowAndCol, SUBSEP)
+    row = rowAndCol[1]
+    col = rowAndCol[2]
+    rows[row]++
   }
 
-  if (count(rows) != 9) 
-  	exitWithError("Invalid puzzle")
+  if (count(rows) != 9)
+    exitWithError("Invalid puzzle")
 
   for (key in rows)
-  	if (rows[key] != 9)
-  	  exitWithError("Invalid puzzle")
+    if (rows[key] != 9)
+      exitWithError("Invalid puzzle")
 }
 
-function isRowHaveDuplicates(puzzle, i,   key, rowAndCol, row, arr) {
-  for (key in puzzle) {
-  	split(key, rowAndCol, SUBSEP)
-  	row = rowAndCol[1]
-  	if (row == i && puzzle[key] != 0) {
-  	  if (puzzle[key] in arr)
-  		return 1
-	  else
-	    arr[puzzle[key]] = 1
-  	} 
+function isRowHaveDuplicates(puzzle, i,   j, arr){
+  for (j = 1; j <= 9; j++) {
+    if (puzzle[i, j] != 0) {
+      if (puzzle[i, j] in arr)
+        return 1
+      else
+        arr[puzzle[i, j]] = 1
+    }
   }
   return 0
 }
 
-function isColumnHaveDuplicates(puzzle, i,   key, rowAndCol, col, arr) {
-  for (key in puzzle) {
-  	split(key, rowAndCol, SUBSEP)
-  	col = rowAndCol[2]
-  	if (col == i && puzzle[key] != 0) {
-      if (puzzle[key] in arr) 
+function isColumnHaveDuplicates(puzzle, j,   i, arr) {
+  for (i = 1; i <= 9; i++) {
+    if (puzzle[i, j] != 0) {
+      if (puzzle[i, j] in arr)
         return 1
       else
-        arr[puzzle[key]] = 1
-  	}
+        arr[puzzle[i, j]] = 1
+    }
   }
   return 0
 }
@@ -229,12 +225,12 @@ function isSubgridHaveDuplicates(puzzle, key,   rowAndCol, row, col, list, i, ar
   list[9] = (row + 2) SUBSEP (col + 2)
 
   for (i in list) {
-  	if (puzzle[list[i]] != 0) {
-	  if (puzzle[list[i]] in arr) 
-	    return 1
-	  else
-	    arr[puzzle[list[i]]] = 1
-  	} 
+    if (puzzle[list[i]] != 0) {
+      if (puzzle[list[i]] in arr)
+        return 1
+      else
+        arr[puzzle[list[i]]] = 1
+    }
   }
 
   return 0
@@ -247,21 +243,21 @@ function validateRows(puzzle,   i) {
 }
 
 function validateColumns(puzzle,   j) {
-  for (j = 1; j <= 9; j++) 
+  for (j = 1; j <= 9; j++)
     if (isColumnHaveDuplicates(puzzle, j))
       exitWithError("Invalid puzzle")
 }
 
 function validateSubgrids(puzzle) {
   if (isSubgridHaveDuplicates(puzzle, 1 SUBSEP 1) ||
-    isSubgridHaveDuplicates(puzzle, 1 SUBSEP 4) ||
-    isSubgridHaveDuplicates(puzzle, 1 SUBSEP 7) ||
-    isSubgridHaveDuplicates(puzzle, 4 SUBSEP 1) ||
-    isSubgridHaveDuplicates(puzzle, 4 SUBSEP 4) ||
-    isSubgridHaveDuplicates(puzzle, 4 SUBSEP 7) ||
-    isSubgridHaveDuplicates(puzzle, 7 SUBSEP 1) ||
-    isSubgridHaveDuplicates(puzzle, 7 SUBSEP 4) ||
-    isSubgridHaveDuplicates(puzzle, 7 SUBSEP 7)) {
-  	exitWithError("Invalid puzzle")
+      isSubgridHaveDuplicates(puzzle, 1 SUBSEP 4) ||
+      isSubgridHaveDuplicates(puzzle, 1 SUBSEP 7) ||
+      isSubgridHaveDuplicates(puzzle, 4 SUBSEP 1) ||
+      isSubgridHaveDuplicates(puzzle, 4 SUBSEP 4) ||
+      isSubgridHaveDuplicates(puzzle, 4 SUBSEP 7) ||
+      isSubgridHaveDuplicates(puzzle, 7 SUBSEP 1) ||
+      isSubgridHaveDuplicates(puzzle, 7 SUBSEP 4) ||
+      isSubgridHaveDuplicates(puzzle, 7 SUBSEP 7)) {
+    exitWithError("Invalid puzzle")
   }
 }
