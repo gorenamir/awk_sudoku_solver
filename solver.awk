@@ -185,7 +185,7 @@ function validateNineRowsAndCols(puzzle,   key, rowAndCol, row, col, rows) {
       exitWithError("Invalid puzzle")
 }
 
-function isRowHaveDuplicates(puzzle, i,   j, arr){
+function isRowHaveDuplicates(puzzle, i,   j, arr) {
   for (j = 1; j <= 9; j++) {
     if (puzzle[i, j] != 0) {
       if (puzzle[i, j] in arr)
